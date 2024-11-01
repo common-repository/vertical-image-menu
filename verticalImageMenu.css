@@ -1,0 +1,42 @@
+/*
+CSS Name: verticalimagemenu css
+Description: VerticalImageMenu default style. You can override the styles in your themes css
+Author: Benedikt Morschheuser
+Version: 1.0
+*/
+
+.vertical_imagemenu{ 
+	float:left;
+	width:148px;
+	height:400px;
+	margin:0px;
+	padding:0px;
+	overflow:auto;
+}
+.vertical_imagemenu table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	width:auto;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+.vertical_imagemenu table td{
+	vertical-align:middle;
+	text-align:center;
+	width:auto;
+	height:auto;
+}
+.vertical_imagemenu a{
+	margin:0px;
+	padding:0px;
+}
+.vertical_imagemenu img{
+	/*width:128px;
+	height:128px;*/
+	margin:10px 0px;
+	padding:0px;
+	border:2px solid #fff;
+}
